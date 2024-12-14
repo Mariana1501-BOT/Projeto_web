@@ -98,12 +98,12 @@ height:50px ;
 }
 
 .banner {
-    background-image: 
+
     background-size: cover;
     background-position: center;
     text-align: center;
-    color: #ffffff;
-    padding: 100px 20px;
+    color:#ffffff;
+    padding:100px 20px;
 }
 
 .banner h1 {
