@@ -15,10 +15,12 @@ body, h1, h2, h3, p, a, button {
 }
 
 .top-bar {
+   width: 100%;
     background-color: #30302e;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+    height: 50px;
 }
 
 .top-bar ul {
@@ -98,7 +100,7 @@ height:50px ;
 }
 
 .banner {
-
+    
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -227,6 +229,14 @@ height:50px ;
     font-size: 0.9rem;
     text-decoration: none;
     font-weight: bold;
+  }
+
+  .product-card-woman{
+    width: 10px; 
+    height: 10px; 
+    background-image:url(women-clothes-img.png);
+
+    
   }
   
   .buy-now {
