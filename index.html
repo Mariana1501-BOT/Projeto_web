@@ -1,223 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eflyer</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Eflyer</title>
+   
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
-    <div class="top-bar">
-       <ul>
-           <li><a href="#">Best Sellers</a></li>
-           <li><a href="#">Gift Ideas</a></li>
-           <li><a href="#">New Releases</a></li>
-           <li><a href="#">Today's Deals</a></li>
-           <li><a href="#">Customer Service</a></li>
-       </ul>
-   </div>
-
-   <div id="Eflyer">
-    <img src="logo-img.png" alt="logo ">
-   </div>
-
-   <!-- Menu Nevagação -->
-   <nav class="main-nav">
-
-       <div class="menu-icon">
-        <img src="tooggle-icon-img.png" alt="toggle-icon">
-       </div>
-
-       <div class="search-bar">
-        <span class="tooggle-icon-img" onclick="openNav()"><img src="tooggle-icon-img.png"></span>
-           <select >
-               <option>All Category</option>
-           </select>
-           <input type="text" placeholder="Search this blog">
-           <button>🔍</button>
-
-           
-            <div class="lang_box">
-              <img src="flag-uk-img.png" alt="bandeira">
-               <option>English</option>  
-       </div>
-    
-       <div class="nav-links">
-           <a href="#">🛒 Cart</a>
-           <a href="#">👤 Account</a>
-       </div>
-      </nav>
-
-    <!-- header section start -->
-    <div class="header_section">
-      <div class="container">
-          <div class="containt_main">
-              
-            </div>
-               </div>
-               <div class="login_menu">
-                  <ul>
-                     <li><a href="#">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        <span class="padding_10">Cart</span></a>
-                     </li>
-                     <li><a href="#">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <span class="padding_10">login</span></a>
-                     </li>
-                  </ul>
+    <div class="banner_bg_main">
+        <!-- superior do cabeçalho -->
+         <!-- banner bg main start -->
+      <div class="banner_bg_main">
+         <!-- header top section start -->
+         <div class="container">
+            <div class="header_section_top">
+               <div class="row">
+                  
+                     <div class="custom_menu">
+                        <ul>
+                           <li><a href="#">Best Sellers</a></li>
+                           <li><a href="#">Gift Ideas</a></li>
+                           <li><a href="#">New Releases</a></li>
+                           <li><a href="#">Today's Deals</a></li>
+                           <li><a href="#">Customer Service</a></li>
+                        </ul>
+                     </div>
+                  
                </div>
             </div>
          </div>
-      </div>
-   </div>
-   <!-- header section end -->
-
-      <div class="banner">
-          <h1>GET START YOUR FAVORITE SHOPPING</h1>
-          <button>BUY NOW</button>
-      </div>
-  </header>
+         <!-- header top section start -->
+        <!-- início da seção do logotipo-->
+        <div class="logo_section">
+           <div class="container">
+              <div class="row">
+                 
+                    <div class="logo"><a href="index.html"><img src="logo-img.png"></a></div>
+                 
+              </div>
+           </div>
+        </div>
+        <!-- fim da seção do logotipo -->
+        <!-- início da seção do cabeçalho -->
+        <div class="header_section">
+            <div class="container">
+               <div class="containt_main">
+                  <span class="toggle_icon"><img src="tooggle-icon-img.png"></span>
+                  <div class="dropdown">
+                     <button class="btn btn-secondary dropdown-toggle" type="button">All category</button>
+                  </div>
+                  <div class="main">
+                     <!-- Outra variação com um botão-->
+                     <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <div class="input-group-append">
+                           <button class="btn btn-secondary" type="button">
+                           <i class="fa fa-search"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="header_box">
+                    <div class="lang_box">
+                        <img src="flag-uk-img.png" alt="bandeira">
+                       English
+                    </div>
+                    <div class="login_menu">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i> CARRINHO</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+            </div>
+         </div>
+         <!-- fim da seção do cabeçalho -->
+           <!-- header section end -->
+           <div class="banner">
+            <h1>GET START 
+               <br>
+                YOUR FAVORITE SHOPPING</h1>
+                <div class="buynow_bt">
+                  <a href="#"><button>Buy Now</button></a>
+                </div>
+        </div>
+    
+      </header>
+    <h2 class="section-title">Man & Women Fashion</h2>
   
-  <h2 class="section-title">Man & Women Fashion</h2>
-
+    <section class="product-section">
+      <div class="product-card">
+          <h3>Man T-shirt</h3>
+          <p class="price">Price $30</p>
+          <img src="t-shirt-img.png" alt="Man T-shirt">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+      </div>
+      <div class="product-card">
+          <h3>Man Shirt</h3>
+          <p class="price">Price $30</p>
+          <img src="man-shirt-img.png" alt="Man Shirt">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+     </div>
+     <div class="product-card">
+      <h3>Woman Scart</h3>
+      <p class="price">Price $30</p>
+      <img src="vestido-img.png" alt="Woman Scart">
+      <div class="product-links">
+        <a href="#" class="buy-now">Buy Now</a>
+        <a href="#" class="see-more">See More</a>
+      </div>
+      </div>
+  </section>
+  
+  <div class="carousel-container">
+      <div class="carousel-buttons">
+        <button class="carousel-btn">&lt;</button>
+        <button class="carousel-btn">&gt;</button>
+      </div>
+      <h2 class="section-title">Electronics</h2>
+    </div>
+  
+  
   <section class="product-section">
-    <div class="product-card">
-        <h3>Man T-shirt</h3>
-        <p class="price">Price $30</p>
-        <img src="t-shirt-img.png" alt="Man T-shirt">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-    </div>
-    <div class="product-card">
-        <h3>Man Shirt</h3>
-        <p class="price">Price $30</p>
-        <img src="man-shirt-img.png" alt="Man Shirt">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-   </div>
-   <div class="product-card">
-    <h3>Woman Scart</h3>
-    <p class="price">Price $30</p>
-    <img src="vestido-img.png" alt="Woman Scart">
-    <div class="product-links">
-      <a href="#" class="buy-now">Buy Now</a>
-      <a href="#" class="see-more">See More</a>
-    </div>
-    </div>
-</section>
-
-<div class="carousel-container">
-    <div class="carousel-buttons">
-      <button class="carousel-btn">&lt;</button>
-      <button class="carousel-btn">&gt;</button>
-    </div>
-    <h2 class="section-title">Electronics</h2>
-  </div>
-
-
-<section class="product-section">
-    <div class="product-card">
-        <h3>Labtop</h3>
-        <p class="price">Price $30</p>
-        <img src="laptop-img.png" alt="laptop-img">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-    </div>
-    <div class="product-card">
-        <h3>Mobile</h3>
-        <p class="price">Price $30</p>
-        <img src="mobiles-img.png" alt="mobiles-img">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-   </div>
-   <div class="product-card">
-    <h3>Computers</h3>
-    <p class="price">Price $30</p>
-    <img src="computter-img.png" alt="computter-img">
-    <div class="product-links">
-      <a href="#" class="buy-now">Buy Now</a>
-      <a href="#" class="see-more">See More</a>
-    </div>
-    </div>
-</section>
-
-<div class="carousel-container">
-    <div class="carousel-buttons">
-      <button class="carousel-btn">&lt;</button>
-      <button class="carousel-btn">&gt;</button>
-    </div>
-    <h2 class="section-title">Jewellery Accessories</h2>
-  </div>
-
-<section class="product-section">
-    <div class="product-card">
-        <h3>Jumkas</h3>
-        <p class="price">Price $30</p>
-        <img src="brincos-img.png" alt="brincos-img">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-    </div>
-    <div class="product-card">
-        <h3>Necklaces</h3>
-        <p class="price">Price $30</p>
-        <img src="colar-img.png" alt="colar-img">
-        <div class="product-links">
-          <a href="#" class="buy-now">Buy Now</a>
-          <a href="#" class="see-more">See More</a>
-        </div>
-   </div>
-   <div class="product-card">
-    <h3>Kangans</h3>
-    <p class="price">Price $30</p>
-    <img src="aneis-img.png" alt="aneis-img">
-    <div class="product-links">
-      <a href="#" class="buy-now">Buy Now</a>
-      <a href="#" class="see-more">See More</a>
-    </div>
-    </div>
-</section>
-
-
-
-  <!-- Footer -->
-  <div class="loader">
-    <div class="circle"></div>
-  </div>
+      <div class="product-card">
+          <h3>Labtop</h3>
+          <p class="price">Price $30</p>
+          <img src="laptop-img.png" alt="Man T-shirt">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+      </div>
+      <div class="product-card">
+          <h3>Mobile</h3>
+          <p class="price">Price $30</p>
+          <img src="mobiles-img.png" alt="Man Shirt">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+     </div>
+     <div class="product-card">
+      <h3>Computers</h3>
+      <p class="price">Price $30</p>
+      <img src="computter-img.png" alt="Woman Scart">
+      <div class="product-links">
+        <a href="#" class="buy-now">Buy Now</a>
+        <a href="#" class="see-more">See More</a>
+      </div>
+      </div>
+  </section>
   
-  <footer class="footer">
-    <div class="footer-content">
-      <h1 class="footer-logo">Eflyer</h1>
-      <a href="#" class="youremail">Your email</a>
-      <a href="#" class="subscribe">Subscribe</a>
+  <div class="carousel-container">
+      <div class="carousel-buttons">
+        <button class="carousel-btn">&lt;</button>
+        <button class="carousel-btn">&gt;</button>
+      </div>
+      <h2 class="section-title">Jewellery Accessories</h2>
     </div>
-
-      <nav class="footer-links">
-        <a href="#">Best Sellers</a>
-        <a href="#">Gift Ideas</a>
-        <a href="#">New Releases</a>
-        <a href="#">Today's Deals</a>
-        <a href="#">Customer Service</a>
-      </nav>
-
-      <p class="helpline">Help Line Number: +1 1800 1200 1200</p>
-      <p class="footer-copy">&copy; 2020 All Rights Reserved. Design by Free html Templates</p>
+  
+  <section class="product-section">
+      <div class="product-card">
+          <h3>Jumkas</h3>
+          <p class="price">Price $30</p>
+          <img src="brincos-img.png" alt="brincos-img">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+      </div>
+      <div class="product-card">
+          <h3>Necklaces</h3>
+          <p class="price">Price $30</p>
+          <img src="colar-img.png" alt="colar">
+          <div class="product-links">
+            <a href="#" class="buy-now">Buy Now</a>
+            <a href="#" class="see-more">See More</a>
+          </div>
+     </div>
+     <div class="product-card">
+      <h3>Kangans</h3>
+      <p class="price">Price $30</p>
+      <img src="aneis-img.png" alt="aneis">
+      <div class="product-links">
+        <a href="#" class="buy-now">Buy Now</a>
+        <a href="#" class="see-more">See More</a>
+      </div>
+      </div>
+  </section>
+  
+  
+  
+    <!-- Footer -->
+    <div class="loader">
+      <div class="circle"></div>
     </div>
-  </footer>
-
-   <footer class="footer">
-    <p>© 2024 Eflyer - All Rights Reserved</p>
-  </footer> 
-</body>
-</html>
+    
+    <footer class="footer">
+      <div class="footer-content">
+         <div class="footer-logo"><a href="index.html"><img src="Eflyer-footer-logo-img.png"></a></div>
+        
+        <form class="subscribe-form">
+          <input type="email" placeholder="Your Email" class="email-input" />
+          <button type="submit" class="subscribe-btn">SUBSCRIBE</button>
+        </form>
+        <nav class="footer-links">
+          <a href="#">Best Sellers</a>
+          <a href="#">Gift Ideas</a>
+          <a href="#">New Releases</a>
+          <a href="#">Today's Deals</a>
+          <a href="#">Customer Service</a>
+        </nav>
+        <p class="helpline">Help Line Number: +1 1800 1200 1200</p>
+        <p class="footer-copy">&copy; 2020 All Rights Reserved. Design by Free html Templates</p>
+      </div>
+    </footer>
+  
+     <footer class="footer">
+      <p>© 2024 Eflyer - All Rights Reserved</p>
+    </footer> 
+  </body>
+  </html>
+  
+      
